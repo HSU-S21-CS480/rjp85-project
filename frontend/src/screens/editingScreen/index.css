@@ -1,0 +1,39 @@
+.titleContainer {
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+
+.editorContainer {
+  margin-top: 100px;
+}
+
+.lableSpacingTitle {
+    margin-bottom: 5px;
+  }
+  .lableSpacingBody {
+    margin-bottom: 5px;
+    position: relative;
+    left: 10px;
+  }
+
+.mainTitle {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.editor {
+  height: 400px;
+  flex: 1;
+  width: 100%;
+  margin: 10px;
+}
+.buttonContainer {
+  text-align: center;
+  padding: auto;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  position: relative; 
+}

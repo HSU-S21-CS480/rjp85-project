@@ -1,0 +1,53 @@
+###create user
+POST http://localhost:5000/user/signup
+Content-Type: application/json
+
+{
+    "username":"Amal",
+    "email":"a@c.com",
+    "password":"Cache-Control: ",
+    "profilePic":"null"
+}
+
+
+
+
+###user login
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+{ 
+    "email":"a@c.com",
+    "password":"c" 
+}
+
+
+
+
+###email  availability
+POST http://localhost:5000/user/email
+Content-Type: application/json
+
+{ 
+    "email":"a@dc.com",
+    "password":"c" 
+}
+ 
+
+
+###change username and email
+POST  http://localhost:5000/user/emailUsername/5
+Content-Type: application/json
+
+{ 
+    "email":"a@dc.com",
+    "userName":"Saman Kumara" 
+}
+
+
+
+
+
+###get article list
+GET http://localhost:5000/article/test
+ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6bnVsbCwidWlkIjo0LCJlbWFpbCI6ImFAYy5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRmYUJNMW44RDM2TUxyZUdWenZzLnhPVkRkMG5qUVR1WjdVazRQdnUvYVpGMlVPeTVMUkZaZSIsInByb2ZpbGVQaWMiOiJudWxsIiwiaWF0IjoxNjE1MTI1MzU3fQ.R_-rhWm5J280r9BGvtc9EdKR4HIH9DgIj0HvUGifXc4

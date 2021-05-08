@@ -1,0 +1,27 @@
+.formContainer {
+  position: relative;
+  margin: auto;
+  margin-top: 15%;
+  height: 50%;
+  min-width: 400px !important;
+}
+ 
+.loginTextContainer{  
+  position: relative; 
+  margin: auto!important; 
+  width: 100%; 
+  text-align: center;
+  margin :0px;
+}
+
+ .input-group{
+   
+  padding :0px!important; 
+  margin:0px!important; 
+ }
+
+.signupLink {
+  text-decoration: none;
+  color: royalblue;
+}
+ 

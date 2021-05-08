@@ -1,0 +1,28 @@
+.articleListContainer {
+  margin-top: 20px; 
+}
+
+.searchBarContainer {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+}
+.searchBar {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  top: 3px;
+}
+.searchButton {
+  width: 10%;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 5px;
+}
+
+ 
+
+ 

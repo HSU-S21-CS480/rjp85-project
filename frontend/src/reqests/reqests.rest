@@ -1,0 +1,68 @@
+###create user
+POST http://localhost:5000/user/signup
+Content-Type: application/json
+
+{
+    "username":"Amal",
+    "email":"a@c.com",
+    "password":"Cache-Control: ",
+    "profilePic":"null"
+}
+
+
+
+
+###user login
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+{ 
+    "email":"a@c.com",
+    "password":"c" 
+}
+
+
+
+
+###email  availability
+POST http://localhost:5000/user/email
+Content-Type: application/json
+
+{ 
+    "email":"a@dc.com",
+    "password":"c" 
+}
+ 
+
+
+###change username and email
+POST  http://localhost:5000/user/emailUsername/5
+Content-Type: application/json
+
+{ 
+    "email":"a@dc.com",
+    "userName":"Saman Kumara" 
+}
+
+
+###edit article 
+PUT  http://localhost:5000/article/8
+Content-Type: application/json
+
+{
+  "auther": "Nipuna Chandimal",
+  "content": "<ul><li>SQLite comparesss the values stored in the column with a literal value to test if they are equal. </li><li>Only the rows that satisfy the condition are returned.</li></ul><p><br></p><p><br></p><p><strong>When you compare two values, </strong></p><ol><li><strong>you must ensure that they are the same data type.</strong></li></ol><p><br></p><p><br></p><p><br></p><ol><li> You should compare numbers with numbers, string with strings, etc.</li><li>In case you compare values in different data types e.g., a string with a number, </li><li>SQLite has to perform implicit data type conversions, but in general, you should avoid doing this.</li><li>You use the logical operator to combine expressions. For example, to get tracks of album 1 that have a length greater than 200,000 milliseconds, you use the following statement:</li></ol>",
+  "updatedOn": "\"2021-03-14T01:54:07.807Z\"",
+  "title": "This is new article"
+}
+
+
+
+
+
+
+
+
+###get article list
+GET http://localhost:5000/article/test
+ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6bnVsbCwidWlkIjo0LCJlbWFpbCI6ImFAYy5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRmYUJNMW44RDM2TUxyZUdWenZzLnhPVkRkMG5qUVR1WjdVazRQdnUvYVpGMlVPeTVMUkZaZSIsInByb2ZpbGVQaWMiOiJudWxsIiwiaWF0IjoxNjE1MTI1MzU3fQ.R_-rhWm5J280r9BGvtc9EdKR4HIH9DgIj0HvUGifXc4

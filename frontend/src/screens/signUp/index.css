@@ -1,0 +1,7 @@
+.signupFormContainer {
+  position: relative;
+  margin: auto;
+  margin-top: 10%; 
+  height: 50%;
+  min-width: 400px!important;
+}
